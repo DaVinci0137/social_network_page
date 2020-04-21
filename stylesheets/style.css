@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.big_head {
+    height: 300px;
+    width: 850px;
+    background-color: slategrey;
+    margin: 0 auto;
+}
+
+.compass {
+    width: 850px;
+    height: 75px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.portrait {
+background-image: url("../images/download.png");
+background-color: darksalmon;
+background-repeat: no-repeat;
+background-position: center;
+height: 200px;
+width: 200px;
+border-radius: 1.75%;
+position: relative;
+top: 135px;
+left: 20px;
+}
+
+.compass li {
+    position: relative;
+    top: 40px;
+    margin-left: 30px;
+    list-style: none;
+    float: left;
+}
+
+.cannons {
+position: relative;
+top: 60px;
+left: 550px;
+}
+
+.clickers button {
+    font-size: 20px;
+    color: white;
+    background: gold;
+}
+
+main {
+height: 2000px;
+width: 850px;
+margin: 0 auto;
+margin-top: 10px;
+}
+
+.column-left {
+    width: 328px;
+    height: 2000px;
+    float: left;
+}
+
+.column-right {
+    width: 512px;
+    height: 2000px;
+    float: right;
+}
+
+.card {
+    width: 328px;
+    background-color: white;
+    border-radius: 1.75%;
+    padding-top: 8px;
+}
+
+.card h2 {
+    border-top: 1px solid grey;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.flag h1 {
+    border: 9px solid black;
+    width: 512px;
+    border-radius: 1.75%;
+    padding-top: 8px;
+    background-color: crimson;
+    font-size: 36px;
+    font-family: sans-serif;
+}
